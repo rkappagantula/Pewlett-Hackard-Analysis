@@ -29,7 +29,7 @@ The goal of this project was to determine who will be retiring in the next few y
 - Created the mentorship_eligibility table by joining the employees, department employees, and titles tables. In this case, the criterion for the join was that the employees were born in 1965 and that they were currently working at PH, in order for them to apply to the retiring/mentorship package. There were 1,549 employees eligible 
 
 
-- Out of those eligible employees, there are 402 Engineers, 392 Senior Staff, 332 Staff, 290 Senior Engineers, 77 Technique Leaders, and 56 Assistant Engineers. 
+- Out of those eligible employees, there are 420 Engineers, 474 Senior Staff, 250 Staff, 264 Senior Engineers, 77 Technique Leaders, and 64 Assistant Engineers. 
 
 
 ## Summary
