@@ -26,10 +26,15 @@ The goal of this project was to determine who will be retiring in the next few y
 
 - Out of those employees leaving, there are 25916 Senior Engineers, 24926 Senior Staff, 9285 Engineers, 7636 Staff, 3603 Technique Leaders, 1090 Assistant Engineers, and 2 Managers. 
 
+	![retiring_titles](https://user-images.githubusercontent.com/96051648/152286402-234ef022-aa35-491b-85ed-57bde62fa4c0.png)
+
+
 - Created the mentorship_eligibility table by joining the employees, department employees, and titles tables. In this case, the criterion for the join was that the employees were born in 1965 and that they were currently working at PH, in order for them to apply to the retiring/mentorship package. There were 1,549 employees eligible 
 
 
-- Out of those eligible employees, there are 420 Engineers, 474 Senior Staff, 250 Staff, 264 Senior Engineers, 77 Technique Leaders, and 64 Assistant Engineers. 
+- Out of those eligible employees, there are 420 Engineers, 474 Senior Staff, 250 Staff, 264 Senior Engineers, 77 Technique Leaders, and 64 Assistant Engineers.
+
+	![mentorship_by_dept](https://user-images.githubusercontent.com/96051648/152286444-847eb1f9-f7d0-4ed0-9ac1-2ed32b9a3b68.png)
 
 
 ## Summary
@@ -62,6 +67,7 @@ FROM employees_leaving_by_dept
 GROUP BY dept_name
 ORDER BY "Count" desc;
 ```
+![employee_leaving_count_by_dept](https://user-images.githubusercontent.com/96051648/152286477-1d2d9e3a-aaa5-44e8-a1db-9d197d317105.png)
 
 
 To conclude it all depends on how many retiring employees are willing to stay and enroll in mentorship program. Assuming there is one mentor for 10 new employees. Assuming each year there will be 15,000 employees retiring and 12,000 new employees entering, we would need ~1200 - 1500 mentors for all the departments with primary focus on Developement, Production and Sales as these departments have high employee leaving counts.
